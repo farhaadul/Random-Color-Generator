@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Hex Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class='nav'>
+        <button class="nav_button"><a href="index.html">Simple color</a></button>
+         <button class="nav_button"><a href="hex.html">Hex color</a></button>
+    </nav>
+    <div class='main'>
+        <div class="con">
+            <h2 id="bg">Background-color:<br><span id="bgc"> #808080</span></h2>
+            <button id="btn" class="btn" onclick="myFuntion()">Change Color</button>
+        </div>
+        <div class="copy">
+            <input type="text" value="#808080" id="myInput">
+            <button onclick="myFunctioncopy()">Copy Color</button>
+        </div>
+    </div>
+        <script src="hex.js"></script>
+</body>
+</html>
